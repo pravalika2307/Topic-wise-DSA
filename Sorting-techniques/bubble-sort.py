@@ -11,4 +11,4 @@ def bubble_sort(arr):
     return arr
 
 arr = list(map(int, input().split()))
-print(bubble_sort(arr))
+print(*bubble_sort(arr))
